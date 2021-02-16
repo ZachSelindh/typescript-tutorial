@@ -1,1 +1,5 @@
-console.log("TEST");
+var person = {
+    name: "Zach",
+    age: 30
+};
+console.log(person.nickname);
