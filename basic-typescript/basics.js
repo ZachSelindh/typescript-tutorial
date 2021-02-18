@@ -1,15 +1,13 @@
 "use strict";
-function addBasics(n1, n2, showResult, phrase) {
-    if (showResult) {
-        var result_1 = n1 + n2;
-        console.log(phrase + result_1);
-    }
-    else {
-        return n1 + n2;
-    }
-}
-var number1 = 5;
-var number2 = 2.8;
-var printResultBasics = true;
-var resultPhrase = "Result is: ";
-var resultBasics = addBasics(number1, number2, printResultBasics, resultPhrase);
+// function addBasics(n1 :number, n2: number, showResult: boolean, phrase: string) {
+//     if (showResult) {
+//         const result = n1 + n2
+//         console.log(phrase + result)
+//     } else {
+//     return n1 + n2 }
+// }
+// const number1 = 5;
+// const number2 = 2.8;
+// const printResultBasics = true;
+// const resultPhrase = "Result is: "
+// const resultBasics = addBasics(number1 , number2, printResultBasics, resultPhrase);
